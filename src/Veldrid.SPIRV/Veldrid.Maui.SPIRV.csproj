@@ -15,9 +15,9 @@
 
   <ItemGroup>
     <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.0.0" />
-    <PackageReference Include="Veldrid.Maui" Version="4.9.0-beta3" />
+    <PackageReference Include="Veldrid" Version="4.9.0-beta3" />
     <PackageReference Include="Veldrid.SPIRV.AndroidNativeAsset" Version="4.9.1" Condition="$(TargetFramework.Contains('android')) == true" />
-    <PackageReference Include="Veldrid.SPIRV.DesktopNativeAsset" Version="4.9.2"  Condition="'$(TargetFramework)'=='netstandard2.0' or '$(TargetFramework)'=='net6.0'"/>
+    <PackageReference Include="Veldrid.SPIRV.DesktopNativeAsset" Version="4.9.2" Condition="'$(TargetFramework)'=='netstandard2.0' or '$(TargetFramework)'=='net6.0'" />
     <PackageReference Include="Veldrid.SPIRV.iOSNativeAsset" Version="4.9.2" Condition="$(TargetFramework.Contains('ios')) == true" />
   </ItemGroup>
 
@@ -43,6 +43,7 @@
     <PackageTags>3D Graphics Direct3D DirectX Vulkan OpenGL Metal Core Standard Game</PackageTags>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Version>1.0.16</Version>
+    <PackageId>Veldrid.SPIRV</PackageId>
   </PropertyGroup>
 
 </Project>
