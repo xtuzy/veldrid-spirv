@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net6.0;net6.0-android;net6.0-ios;net6.0-maccatalyst</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net7.0;net7.0-android;net7.0-ios;net7.0-maccatalyst</TargetFrameworks>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <DocumentationFile>$(BinDir)\Veldrid.SPIRV.xml</DocumentationFile>
     <NativeAssetsPath Condition="'$(NativeAssetsPath)' == ''">$(RepositoryRootDirectory)/build/</NativeAssetsPath>
@@ -17,7 +17,7 @@
     <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.0.0" />
     <PackageReference Include="Veldrid" Version="4.9.0-beta3" />
     <PackageReference Include="Veldrid.SPIRV.AndroidNativeAsset" Version="4.9.1" Condition="$(TargetFramework.Contains('android')) == true" />
-    <PackageReference Include="Veldrid.SPIRV.DesktopNativeAsset" Version="4.9.2" Condition="'$(TargetFramework)'=='netstandard2.0' or '$(TargetFramework)'=='net6.0'" />
+    <PackageReference Include="Veldrid.SPIRV.DesktopNativeAsset" Version="4.9.2" Condition="'$(TargetFramework)'=='netstandard2.0' or '$(TargetFramework)'=='net6.0' or '$(TargetFramework)'=='net7.0'" />
     <PackageReference Include="Veldrid.SPIRV.iOSNativeAsset" Version="4.9.2" Condition="$(TargetFramework.Contains('ios')) == true" />
   </ItemGroup>
 

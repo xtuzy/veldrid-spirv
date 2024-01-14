@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.33103.201
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Veldrid.Maui.SPIRV", "Veldrid.SPIRV\Veldrid.Maui.SPIRV.csproj", "{D0F1306E-404C-4775-8533-DD8A811738D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veldrid.Maui.SPIRV.Tests", "Veldrid.Maui.SPIRV.Tests\Veldrid.Maui.SPIRV.Tests.csproj", "{734364FA-E450-4B52-845C-23E210523B15}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Veldrid.SPIRV.Tests.Core", "Veldrid.SPIRV.Tests\Veldrid.SPIRV.Tests.Core.csproj", "{F47358B0-1C11-41AF-8E1D-518CF5C20E24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{D0F1306E-404C-4775-8533-DD8A811738D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0F1306E-404C-4775-8533-DD8A811738D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0F1306E-404C-4775-8533-DD8A811738D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{734364FA-E450-4B52-845C-23E210523B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{734364FA-E450-4B52-845C-23E210523B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{734364FA-E450-4B52-845C-23E210523B15}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{734364FA-E450-4B52-845C-23E210523B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{734364FA-E450-4B52-845C-23E210523B15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{734364FA-E450-4B52-845C-23E210523B15}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F47358B0-1C11-41AF-8E1D-518CF5C20E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47358B0-1C11-41AF-8E1D-518CF5C20E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47358B0-1C11-41AF-8E1D-518CF5C20E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47358B0-1C11-41AF-8E1D-518CF5C20E24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
